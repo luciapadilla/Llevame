@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+html, body, ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #00f07f;
+}
+
+.contenedor-quienes{
+	max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.titulo-quienes {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.titulo-quienes h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: oblique;
+  font-size: 2em;
+  color: white;
+  padding-top: 140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.titulo-quienes img{
+     width: 100%;
+     padding-left: 25px;
+     padding-right: 5px;
+}
+
+.texto-quienes{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.texto-quienes article {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: normal;
+  width: 95%;
+  color: white;
+  font-size: 0.7em;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imagen-quienes article{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.imagen-quienes{
+  margin: 0 auto;
+  width: 95%;
+  display: none;
+}
+
+.imagen-quienes img {
+  width: 95%;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+ }
+
+ .imagen-quienes button{
+ z-index: 5;
+ font-family: 'Nunito Sans', sans-serif;
+ font-weight: bold;
+ font-size: 0.8em;
+ color: white;
+ padding: 5px;
+ border-style: solid;
+ background-color: inherit;
+ border-color: white;
+ border-width: 2px;
+ position: absolute;
+ }
+
+
+@media (min-width: 480px) {
+
+  .texto-quienes article {
+    font-size: 1em;
+    margin-right:  0;
+}
+
+.imagen-quienes {display: inline;}
+
+.imagen-quienes button{
+  display: inline;
+  font-size: 1em;
+  margin-left: 60%;
+  margin-top: 28%;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+
+
+
+@media (min-width: 760px) {
+
+  .titulo-quienes {float: right;}
+
+  .titulo-quienes h2 {font-size: 2em;}
+
+  .titulo-quienes img{width: 45%;}
+
+  .texto-quienes {float: right;}
+
+  .texto-quienes article {
+    font-size: 0.8em;
+    width: 43%;
+}
+
+
+.imagen-quienes button{
+  margin-left: 77%;
+  margin-top: 50%;
+
+}
+
+.imagen-quienes img {
+  display: inline;
+  margin-left: 45%;
+  margin-top: 34%;
+  padding-left: 5px;
+  width: 50%;
+  margin-right: 10%;
+
+}
+
+
+@media (min-width: 960px) {
+
+.imagen-quienes img {margin-top: 30%;}
+
+.texto-quienes article {font-size: 1em;}
+
+.imagen-quienes button{
+  margin-left: 77%;
+  margin-top: 45%;
+}
+
+}
+
+@media (min-width: 1200px){
+
+  .titulo-quienes h2 {font-size: 4em;}
+
+  .titulo-quienes img{width: 43%;}
+
+  .texto-quienes article {font-size: 1.2em;}
+
+  .imagen-quienes img {margin-top: 19%;}
+
+.imagen-quienes button{
+  margin-left: 78%;
+  margin-top: 35%;
+}
+}
