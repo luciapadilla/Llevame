@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" href="CSS/estilos.css">
 <meta
 		name="viewport"
  		content="width=device-width, initial-scale=1"
@@ -15,8 +15,8 @@
 	</div>
 	<div class="sn-footer">
 		<ul>
-			<li><img src="Imagenes/iconofooterinsta.png"></li>
-			<li><img src="Imagenes/iconofooterface.png"></li>
+			<li><img src="imagenes/iconofooterinsta.png"></li>
+			<li><img src="imagenes/iconofooterface.png"></li>
 		</ul>
 	</div>
 	<div class="menu-footer">
@@ -28,6 +28,6 @@
 		</ul>
 	</div>
 	<div class="logo-footer">
-		<img src="../Imagenes/logoblanco.png">
+		<img src="imagenes/logoblanco.png">
 	</div>
 </footer>
